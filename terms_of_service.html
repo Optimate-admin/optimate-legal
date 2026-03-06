@@ -56,7 +56,7 @@
 <body>
     <div class="container">
         <h1>Terms of Service</h1>
-        <p class="last-updated">Last Updated: December 20, 2024</p>
+        <p class="last-updated">Last Updated: March 6, 2025</p>
 
         <h2>1. Acceptance of Terms</h2>
         <p>By downloading, installing, or using Optimate (the "App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.</p>
@@ -70,6 +70,8 @@
             <li>Analyze food photos using AI technology</li>
             <li>Set and track daily calorie budgets</li>
             <li>Log exercise activities</li>
+            <li><strong>Cloud Backup and Sync:</strong> Sign in with Google or Apple to automatically backup and sync your data across multiple devices</li>
+            <li><strong>Offline Mode:</strong> Use the app fully offline with automatic sync when you're back online</li>
         </ul>
 
         <h2>3. User Accounts and Data</h2>
@@ -77,18 +79,31 @@
             <li>You are responsible for maintaining the accuracy of your profile information</li>
             <li>You must provide accurate personal details (height, weight, age, etc.) for accurate calorie calculations</li>
             <li>You are responsible for all data entered into the App</li>
-            <li>Currently, the App does not require user account registration and stores data locally on your device</li>
-            <li>In the future, we may introduce optional user accounts that will enable:
+            <li><strong>Local Use:</strong> The App can be used without signing in. All data is stored locally on your device</li>
+            <li><strong>Cloud Features (Optional):</strong> When you sign in with Google or Apple:
                 <ul>
-                    <li>Cloud backup and synchronization across devices</li>
-                    <li>Enhanced features and personalization</li>
-                    <li>Account recovery options</li>
+                    <li>Your data is automatically backed up to Firebase Cloud Firestore</li>
+                    <li>Your data syncs automatically across all devices where you're signed in</li>
+                    <li>You can access your data from multiple devices</li>
+                    <li>Offline changes are synchronized when you reconnect</li>
                 </ul>
             </li>
-            <li>If you create an account in the future, you will be responsible for maintaining the security of your account credentials</li>
+            <li><strong>Account Security:</strong> You are responsible for maintaining the security of your account credentials</li>
+            <li><strong>Account Deletion:</strong> You can delete your account and all cloud data at any time through the app's settings</li>
         </ul>
 
-        <h2>4. Acceptable Use</h2>
+        <h2>4. Cloud Services</h2>
+        <p>When you sign in and use cloud features, you acknowledge and agree that:</p>
+        <ul>
+            <li><strong>Service Availability:</strong> We provide cloud backup and sync services "as is" and strive for high availability, but cannot guarantee 100% uptime</li>
+            <li><strong>Data Location:</strong> Your data is stored on Google Firebase servers, which may process data in the United States and other countries</li>
+            <li><strong>Encryption:</strong> Your data is encrypted in transit (TLS 1.3) and at rest (AES-256) for security</li>
+            <li><strong>Sync Limitations:</strong> Sync may fail due to network issues, service outages, or data conflicts. We implement automatic retry and conflict resolution, but cannot guarantee perfect synchronization</li>
+            <li><strong>Data Responsibility:</strong> While we provide cloud backup as a convenience and implement industry-standard security measures, we recommend you maintain your own backups of critical data</li>
+            <li><strong>Service Interruptions:</strong> We are not liable for any data loss or service interruptions due to Firebase outages, network issues, or other factors beyond our control</li>
+        </ul>
+
+        <h2>5. Acceptable Use</h2>
         <p>You agree to use the App only for lawful purposes and in accordance with these Terms. You agree NOT to:</p>
         <ul>
             <li>Use the App in any way that violates applicable laws or regulations</li>
@@ -96,9 +111,10 @@
             <li>Attempt to interfere with or disrupt the App's functionality</li>
             <li>Reverse engineer, decompile, or attempt to extract source code</li>
             <li>Use the App for commercial purposes without permission</li>
+            <li><strong>Abuse Cloud Services:</strong> Attempt to overwhelm, hack, or abuse our cloud infrastructure</li>
         </ul>
 
-        <h2>5. Medical Disclaimer</h2>
+        <h2>6. Medical Disclaimer</h2>
         <div class="important">
             <strong>IMPORTANT:</strong> This App is for informational and tracking purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment.
         </div>
@@ -110,7 +126,7 @@
             <li>If you have any medical conditions, consult your doctor before using this App</li>
         </ul>
 
-        <h2>6. Accuracy of Information</h2>
+        <h2>7. Accuracy of Information</h2>
         <ul>
             <li>We strive to provide accurate nutritional data, but we cannot guarantee 100% accuracy</li>
             <li>AI food recognition is not perfect and may produce incorrect estimates</li>
@@ -118,7 +134,7 @@
             <li>We are not liable for decisions made based on information provided by the App</li>
         </ul>
 
-        <h2>7. Intellectual Property</h2>
+        <h2>8. Intellectual Property</h2>
         <ul>
             <li>The App and its content (design, graphics, text, features) are owned by Optimate AI Limited</li>
             <li>You are granted a limited, non-exclusive license to use the App for personal purposes</li>
@@ -127,25 +143,30 @@
             <li>By using the App, you grant us a license to use your content to provide and improve the service</li>
         </ul>
 
-        <h2>8. Third-Party Services</h2>
-        <p>The App may use third-party services, including:</p>
+        <h2>9. Third-Party Services</h2>
+        <p>The App uses third-party services, including:</p>
         <ul>
+            <li><strong>Firebase Services (Google LLC):</strong> Firebase Authentication, Cloud Firestore, Crashlytics, and App Check for cloud features, authentication, and app monitoring</li>
             <li><strong>AI Services:</strong> Google Vertex AI, Qwen, and OpenAI for food photo analysis</li>
-            <li>These services process your food photos to provide nutritional estimates</li>
+            <li><strong>RevenueCat:</strong> Subscription management and payment processing analytics</li>
+            <li>These services process your data according to their own terms and privacy policies</li>
+            <li>Firebase Terms: <a href="https://firebase.google.com/terms" target="_blank">https://firebase.google.com/terms</a></li>
+            <li>Google Cloud Terms: <a href="https://cloud.google.com/terms" target="_blank">https://cloud.google.com/terms</a></li>
         </ul>
-        <p>These services have their own terms and privacy policies. We are not responsible for third-party services.</p>
+        <p>These services have their own terms and privacy policies. We are not responsible for third-party services' performance or availability.</p>
 
-        <h2>9. Limitation of Liability</h2>
+        <h2>10. Limitation of Liability</h2>
         <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW:</p>
         <ul>
-            <li>The App is provided "AS IS" without warranties of any kind</li>
-            <li>We do not guarantee the App will be error-free or uninterrupted</li>
-            <li>We are not liable for any damages arising from your use of the App</li>
-            <li>We are not liable for any health issues, weight gain/loss, or other outcomes</li>
-            <li>Our total liability shall not exceed the amount you paid for the App (if any)</li>
+            <li>The App is provided "AS IS" and "AS AVAILABLE" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement</li>
+            <li>We do not guarantee the App will be error-free, uninterrupted, or free from viruses or other harmful components</li>
+            <li>We are not liable for any damages arising from your use of the App, including but not limited to direct, indirect, incidental, consequential, or punitive damages</li>
+            <li>We are not liable for any health issues, weight gain/loss, medical conditions, or other physical or mental health outcomes resulting from use of the App</li>
+            <li>Our total liability for all claims arising from or related to the App shall not exceed the greater of (a) $100 USD or (b) the amount you paid for the App in the 12 months preceding the claim</li>
+            <li>Some jurisdictions do not allow the exclusion or limitation of certain warranties or liabilities, so some of the above limitations may not apply to you. In such cases, our liability will be limited to the maximum extent permitted by law</li>
         </ul>
 
-        <h2>10. Indemnification</h2>
+        <h2>11. Indemnification</h2>
         <p>You agree to indemnify and hold harmless Optimate AI Limited from any claims, damages, or expenses arising from:</p>
         <ul>
             <li>Your use of the App</li>
@@ -153,10 +174,10 @@
             <li>Your violation of any third-party rights</li>
         </ul>
 
-        <h2>11. Privacy</h2>
+        <h2>12. Privacy</h2>
         <p>Your use of the App is also governed by our Privacy Policy, which is incorporated into these Terms by reference. Please review our Privacy Policy to understand our data practices.</p>
 
-        <h2>12. Changes to Terms</h2>
+        <h2>13. Changes to Terms</h2>
         <ul>
             <li>We may update these Terms at any time by posting updated Terms in the App</li>
             <li>The "Last Updated" date will be revised</li>
@@ -164,7 +185,7 @@
             <li>Material changes will be communicated through the App</li>
         </ul>
 
-        <h2>13. Termination</h2>
+        <h2>14. Termination</h2>
         <ul>
             <li>You may stop using the App at any time by uninstalling it</li>
             <li>We may terminate or suspend your access if you violate these Terms</li>
@@ -172,37 +193,122 @@
             <li>Data deletion policies are described in our Privacy Policy</li>
         </ul>
 
-        <h2>14. Free App</h2>
-        <p>The App is currently free to use. We reserve the right to introduce paid features or subscriptions in the future with notice to users.</p>
+        <h2>15. Subscriptions and In-App Purchases</h2>
 
-        <h2>15. Governing Law</h2>
-        <p>These Terms are governed by the laws of Hong Kong, without regard to conflict of law principles.</p>
-
-        <h2>16. Dispute Resolution</h2>
+        <h3>15.1 Subscription Plans</h3>
+        <p>The App offers both free and premium features. Premium features are available through auto-renewable subscription plans:</p>
         <ul>
-            <li>Any disputes will be resolved through the courts of Hong Kong</li>
-            <li>You agree to submit to the jurisdiction of Hong Kong courts</li>
+            <li><strong>Standard Plan:</strong> Available as a monthly or annual subscription</li>
+            <li><strong>Premium Plan:</strong> Available as a monthly or annual subscription</li>
+            <li><strong>Premium Family Plan:</strong> Available as an annual subscription (iOS only, via Apple Family Sharing)</li>
+        </ul>
+        <p>Current pricing is displayed in the App at the time of purchase. Prices may vary by region and are subject to change.</p>
+
+        <h3>15.2 Free Trial</h3>
+        <p>Some subscription plans may include a free trial period (e.g., 3 days). During the free trial, you have full access to the subscription features at no charge. If you do not cancel before the free trial ends, your subscription will automatically convert to a paid subscription at the displayed price. You will be charged through your Apple ID account at confirmation of purchase. Free trial eligibility is determined by Apple and is typically available only once per Apple ID.</p>
+
+        <h3>15.3 Auto-Renewal</h3>
+        <ul>
+            <li>Subscriptions automatically renew at the end of each billing period (monthly or annually) unless you cancel at least 24 hours before the end of the current period</li>
+            <li>Your Apple ID account will be charged for renewal within 24 hours prior to the end of the current period at the same price</li>
+            <li>You can manage and cancel your subscriptions at any time by going to your device's <strong>Settings &gt; Apple ID &gt; Subscriptions</strong></li>
+            <li>Any unused portion of a free trial period will be forfeited when you purchase a subscription</li>
         </ul>
 
-        <h2>17. Severability</h2>
-        <p>If any provision of these Terms is found to be unenforceable, the remaining provisions will remain in full effect.</p>
+        <h3>15.4 Payment and Billing</h3>
+        <ul>
+            <li>All payments are processed by Apple through the App Store. Optimate AI Limited does not directly collect or store your payment information</li>
+            <li>All purchases are subject to Apple's <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdevstandard/" target="_blank">Licensed Application End User License Agreement</a> and Apple's payment terms</li>
+            <li>Prices include any applicable taxes as determined by Apple based on your region</li>
+        </ul>
 
-        <h2>18. Entire Agreement</h2>
+        <h3>15.5 Cancellation and Refunds</h3>
+        <ul>
+            <li>You may cancel your subscription at any time through your device's Settings or the App Store</li>
+            <li>Cancellation takes effect at the end of the current billing period. You will continue to have access to premium features until then</li>
+            <li>Refunds are handled by Apple in accordance with their refund policies. To request a refund, visit <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a></li>
+            <li>Deleting the App does not automatically cancel your subscription. You must cancel through Settings before uninstalling</li>
+        </ul>
+
+        <h3>15.6 Changes to Subscription Pricing</h3>
+        <p>We reserve the right to change subscription pricing. Any price changes will take effect at the start of the next billing period following notice to you. If you do not agree with a price change, you may cancel your subscription before it renews at the new price.</p>
+
+        <h3>15.7 Free Features</h3>
+        <p>The App provides core food tracking features at no cost. We reserve the right to modify which features are included in free and premium tiers with notice to users.</p>
+
+        <h2>16. Governing Law</h2>
+        <p>These Terms are governed by the laws of Hong Kong, without regard to conflict of law principles.</p>
+
+        <h2>17. Dispute Resolution</h2>
+
+        <h3>17.1 Informal Resolution</h3>
+        <p>Before filing any legal claim, you agree to first contact us at support@optimateai.co to attempt to resolve the dispute informally. We will attempt to resolve the dispute within 30 days of receiving your notice.</p>
+
+        <h3>17.2 Arbitration Agreement (Optional)</h3>
+        <p>For disputes that cannot be resolved informally, you may choose to resolve disputes through binding arbitration instead of court litigation. Arbitration uses a neutral arbitrator instead of a judge or jury and is generally faster and less expensive than court proceedings.</p>
+        <ul>
+            <li><strong>Optional Arbitration:</strong> Either party may elect to resolve disputes through arbitration administered by the Hong Kong International Arbitration Centre (HKIAC)</li>
+            <li><strong>Individual Basis Only:</strong> All arbitrations shall be conducted on an individual basis, not as a class action or representative proceeding</li>
+            <li><strong>Location:</strong> Arbitration shall take place in Hong Kong</li>
+            <li><strong>Language:</strong> English</li>
+            <li><strong>Costs:</strong> Each party bears their own costs unless otherwise awarded by the arbitrator</li>
+        </ul>
+
+        <h3>17.3 Class Action Waiver</h3>
+        <p>TO THE EXTENT PERMITTED BY LAW, YOU AGREE THAT ANY DISPUTE SHALL BE BROUGHT ON AN INDIVIDUAL BASIS ONLY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, CONSOLIDATED, OR REPRESENTATIVE PROCEEDING. You and Optimate AI Limited agree that there shall be no class arbitration or class action lawsuit.</p>
+
+        <h3>17.4 Opt-Out Right</h3>
+        <p>You have the right to opt out of the arbitration agreement and class action waiver. To opt out, you must send written notice to support@optimateai.co within 30 days of first accepting these Terms. Your notice must include your name, email address, and a clear statement that you wish to opt out of the arbitration agreement. If you opt out, you may pursue your claims in court.</p>
+
+        <h3>17.5 Court Jurisdiction</h3>
+        <ul>
+            <li>If you opt out of arbitration, or for disputes not subject to arbitration, any disputes will be resolved through the courts of Hong Kong</li>
+            <li>You agree to submit to the jurisdiction of Hong Kong courts</li>
+            <li>EU users may bring claims in their country of residence as required by GDPR</li>
+        </ul>
+
+        <h2>18. Severability</h2>
+        <p>If any provision of these Terms is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, such provision shall be modified to the minimum extent necessary to make it valid and enforceable while preserving its intent. If such modification is not possible, the provision shall be severed from these Terms. In either case, the remaining provisions shall continue in full force and effect.</p>
+
+        <h2>19. Entire Agreement</h2>
         <p>These Terms, together with our Privacy Policy, constitute the entire agreement between you and Optimate AI Limited regarding the App.</p>
 
-        <h2>19. Contact Us</h2>
+        <h2>20. Data Processing Agreements</h2>
+        <p>We maintain Data Processing Agreements (DPAs) with all third-party service providers who process your personal data on our behalf, including:</p>
+        <ul>
+            <li>Google LLC (Firebase Authentication, Cloud Firestore, Crashlytics, App Check)</li>
+            <li>Google LLC (Vertex AI / Gemini)</li>
+            <li>OpenAI (GPT-4 Vision API)</li>
+            <li>Alibaba Cloud (Qwen VL API)</li>
+        </ul>
+        <p>These agreements ensure that all processors comply with applicable data protection laws, including GDPR and CCPA, and implement appropriate security measures to protect your data.</p>
+
+        <h2>21. Export Control and Encryption</h2>
+        <p>This App uses encryption technology that may be subject to export control laws in various jurisdictions. By downloading and using the App, you represent and warrant that:</p>
+        <ul>
+            <li>You are not located in a country subject to a U.S. Government embargo or designated as a "terrorist supporting" country</li>
+            <li>You are not listed on any U.S. Government list of prohibited or restricted parties</li>
+            <li>You will comply with all applicable export and import laws and regulations</li>
+            <li>You will not use the App for any purposes prohibited by law, including development of weapons or nuclear, chemical, or biological weapons</li>
+        </ul>
+
+        <h2>22. Contact Us</h2>
         <p>If you have questions about these Terms, please contact us:</p>
         <ul>
+            <li><strong>Company:</strong> Optimate AI Limited</li>
+            <li><strong>Company Registration No.:</strong> 79310533</li>
+            <li><strong>Registered in:</strong> Hong Kong</li>
             <li><strong>Email:</strong> support@optimateai.co</li>
             <li><strong>App Feedback:</strong> Use the "Send Feedback" feature in the app settings</li>
         </ul>
+        <p><em>Note: For legal notices and formal communications, please use email.</em></p>
 
-        <h2>20. Acknowledgment</h2>
+        <h2>23. Acknowledgment</h2>
         <p>BY USING THE APP, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTOOD THESE TERMS AND AGREE TO BE BOUND BY THEM.</p>
 
         <hr style="margin-top: 40px; border: none; border-top: 1px solid #eee;">
         <p style="text-align: center; color: #7f8c8d; font-size: 14px;">
-            © 2024 Optimate AI Limited. All rights reserved.
+            © 2024-2025 Optimate AI Limited. All rights reserved.
         </p>
     </div>
 </body>
